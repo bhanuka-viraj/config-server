@@ -8,21 +8,21 @@
 ---
 
 ## Project Description
-Centralized configuration server managing profiles and external configurations for all microservices.
+Spring Cloud Config Server providing centralized, externalized runtime configurations for all EduCloud microservices.
 
 ---
 
 ## Technology Stack
 - Java 25
 - Spring Boot 4.1.1
-- Spring Cloud 2025.1.3
+- Spring Cloud Config Server (2025.1.3)
 - PM2 Process Manager
-- Google Cloud Platform
 
 ---
 
-## Getting Started & Local Setup
-```bash
+## Running Locally
+- Default Port: 8888
+`ash
 ./mvnw clean package
 java -jar target/config-server-0.0.1-SNAPSHOT.jar
-```
+`
